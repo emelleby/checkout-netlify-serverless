@@ -7,7 +7,3 @@
   publish = "public"
   functions = "functions"
 
-[template.environment]
-  STRIPE_PUBLISHABLE_KEY = "pk_test_1gFO1fMbmyKP8XQHPIT91nMN00TL6VQGZ7"
-  STRIPE_SECRET_KEY = "sk_test_578WmiShqqIm2Mks0OPasIxF00WWualQ8D"
-  STRIPE_WEBHOOK_SECRET = "whsec_0nPfV7tHfvIsKMYBuc2j4sdmDEN0n2yd"
