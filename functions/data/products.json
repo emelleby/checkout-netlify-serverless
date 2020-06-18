@@ -1,10 +1,12 @@
 [
   {
-    "sku": "DEMO001",
-    "name": "This Pretty Plant",
-    "description": "Look at this pretty plant. Photo by Galina N on Unsplash.",
-    "image": "https://images.unsplash.com/photo-1485955900006-10f4d324d411?auto=format&fit=crop&w=600&h=600&q=80",
-    "amount": 1000,
+    "sku": "prod_HTm4kJZmhJKPsv",
+    "name": "Mangrove",
+    "description": "One (or more) mangrove tree in Myanmar",
+    "image":  [
+      "https://files.stripe.com/links/fl_test_za5ZW8T89g9Krrqvs4pv1IK8"
+    ],
+    "amount": 400,
     "currency": "USD"
   },
   {
