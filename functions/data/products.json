@@ -1,6 +1,6 @@
 [
   {
-    "sku": "prod_HTm4kJZmhJKPsv",
+    "sku": "price_1GuoWjFUxFXJ4d3VVcjMH2X9",
     "name": "Mangrove",
     "description": "One (or more) mangrove tree in Myanmar",
     "image":  [
@@ -10,11 +10,11 @@
     "currency": "USD"
   },
   {
-    "sku": "DEMO002",
-    "name": "Adventure Mug",
-    "description": "We’re going on an adventure! Photo by Annie Spratt on Unsplash.",
+    "sku": "price_1GvL7WFUxFXJ4d3VF5p2zIV4",
+    "name": "VCS verified Mangrove",
+    "description": "If you need verification on the CO2 sequestration this is it.",
     "image": "https://images.unsplash.com/photo-1454329001438-1752daa90420?auto=format&fit=crop&w=600&h=600&q=80",
-    "amount": 1500,
+    "amount": 500,
     "currency": "USD"
   }
 ]

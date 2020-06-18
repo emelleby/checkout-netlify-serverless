@@ -44,15 +44,7 @@ exports.handler = async (event) => {
     cancel_url: process.env.URL,
     line_items: [
       {
-        price_data: {
-          currency: 'usd',
-          unit_amount: product.amount,
-          product_data: {
-            name: product.name,
-            description: product.description,
-            images: [product.image],
-          },
-        },
+        price: sku,
         quantity: validatedQuantity,
       },
     ],
