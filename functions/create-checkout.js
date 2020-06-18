@@ -24,15 +24,15 @@ exports.handler = async (event) => {
   const product = inventory.find((p) => p.sku === sku);
 
   // ensure that the quantity is within the allowed range
-  const validatedQuantity = quantity > 0 && quantity < 11 ? quantity : 1;
+  const validatedQuantity = quantity // > 0 && quantity < 11 ? quantity : 1;
 
   const session = await stripe.checkout.sessions.create({
     mode: 'payment',
     payment_method_types: ['card'],
-    billing_address_collection: 'auto',
-    shipping_address_collection: {
-      allowed_countries: ['US', 'CA'],
-    },
+    billing_address_collection: 'required',
+    //shipping_address_collection: {
+    //  allowed_countries: ['US', 'CA'],
+    // },
 
     /*
      * This env var is set by Netlify and inserts the live site URL. If you want

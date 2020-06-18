@@ -47,7 +47,7 @@ footer a {
   align-items: baseline;
   display: grid;
   gap: 0.5rem;
-  grid-template-columns: 70px 50px 1fr;
+  grid-template-columns: 70px 70px 1fr;
 }
 
 .product input {
